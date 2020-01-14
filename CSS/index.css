@@ -1,0 +1,83 @@
+body{
+    color: green;
+    background-color: black;
+    display: block;
+    overflow: hidden;
+}
+
+#message-container{
+    overflow: auto;
+    display: block;
+    position: fixed;
+    border: 1px solid greenyellow;
+    width: 75%;
+    bottom: 110px;
+    margin-bottom: 100px;
+    top: 5px;
+}
+
+#message{
+    margin-top: 5px;
+    margin-left: 5px;
+    position: relative;
+    border: 1px solid greenyellow;
+    width: 99%;
+    text-align: left;
+}
+
+#message:hover{
+    /*box-shadow: 0 0 20px 20px green, inset 0 0 5px green;*/
+}
+
+#message-sender{
+    position: relative;
+    width: 100%;
+    text-align: right;
+    display: inline-block;
+    margin-right: 0px;
+    font-size: 10px;
+    color: red;
+}
+
+#send-message-container{
+    bottom: 5px;
+    width: 75%;
+    height: 200px;
+    border: 1px solid yellowgreen;
+    position: absolute;
+    text-align: center;
+}
+
+#postMessage{
+    position: relative;
+    top: 50px;
+}
+#user-info{
+    position: relative;
+    top: 50px;
+}
+
+input[type=text]{
+    background-color: black;
+    color: green;
+    border: 1px solid green;
+    outline: none;
+}
+input[type=password]{
+    background-color: black;
+    color: green;
+    border: 1px solid green;
+    outline: none;
+}
+
+input[type=submit]{
+    background-color: black;
+    color: green;
+    border: 1px solid green;
+    outline: none;
+}
+input[type=submit]:hover{
+    background-color: green;
+    color: black;
+
+}
